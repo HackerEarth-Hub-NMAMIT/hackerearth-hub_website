@@ -28,3 +28,5 @@ Find :  **`src/utils/slider.json`** | Add or remove the data to create new Event
 
 **Server:** Node.js 
 
+**Demo Host:** CloudFlare Pages
+
