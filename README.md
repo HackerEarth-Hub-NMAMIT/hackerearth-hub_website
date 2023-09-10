@@ -10,6 +10,11 @@ Website for HackerEarth Hub-Nmamit for the year 2023-24
 Development repository
 
 
+### Demo Site
+
+- [View Demo Site](https://hacker-earth-test-site.pages.dev/)
+
+
 ## FAQ
 
 #### How to add or Remove Events from the page ?
