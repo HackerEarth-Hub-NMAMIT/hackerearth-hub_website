@@ -4,6 +4,7 @@ import "swiper/css";
 import "./Events.css";
 import data from "../../utils/slider.json";
 import { sliderSettings } from "../../utils/common";
+import EventCard from "../EventCard/EventCard";
 function Events() {
   return (
     <section className="r-wrapper">
@@ -17,17 +18,7 @@ function Events() {
           <SliderButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
-              <div className="flexColStart r-card">
-                <img src={card.image} alt="Event" />
-
-                <span className="secondaryText r-time">
-                  <span style={{ color: "orange" }}>Timings : </span>
-                  <span>{card.time}</span>
-                </span>
-
-                <span className="primaryText">{card.name}</span>
-                <span className="secondaryText">{card.detail}</span>
-              </div>
+              <EventCard card={card} />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -42,8 +33,8 @@ const SliderButtons = () => {
   const swiper = useSwiper();
   return (
     <div className="flexCenter r-buttons">
-      <button onClick={()=>swiper.slidePrev()}>&lt;</button>
-      <button onClick={()=>swiper.slideNext()}>&gt;</button>
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
     </div>
   );
 };

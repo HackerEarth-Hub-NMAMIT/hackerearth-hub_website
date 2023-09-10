@@ -34,5 +34,11 @@
     "time": "10:45",
     "detail": "details of the events will be published soon.",
     "image": "./event.jpg"
+  },
+  {
+    "name": "Event 7",
+    "time": "10:45",
+    "detail": "details of the events will be published soon.",
+    "image": "./event.jpg"
   }
 ]
