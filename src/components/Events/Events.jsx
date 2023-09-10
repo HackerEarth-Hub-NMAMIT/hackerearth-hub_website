@@ -38,3 +38,4 @@ const SliderButtons = () => {
     </div>
   );
 };
+

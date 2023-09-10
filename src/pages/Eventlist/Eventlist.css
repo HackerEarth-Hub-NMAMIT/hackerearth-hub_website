@@ -1,3 +1,40 @@
 .Events-Container{
     gap: 2rem;
-} 
+    background-color: white;
+    padding: 0 125px;
+}
+.szs{
+    font-size: 30px;
+}
+.szl{
+    font-size: 40px;
+}
+.r-h{
+    margin-bottom: 2rem;  
+    align-items: center;  
+}
+.card-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card-cell {
+    width: calc(25% - 20px); 
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .card-cell {
+      width: 100%; 
+    }
+    .Events-Container{
+        gap: 2rem;
+        background-color: white;
+        padding: 0 10px;
+    } 
+  }
+  
+  

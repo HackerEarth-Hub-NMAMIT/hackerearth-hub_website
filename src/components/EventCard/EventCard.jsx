@@ -17,3 +17,4 @@ const EventCard = ({ card }) => {
 };
 
 export default EventCard;
+
