@@ -1,0 +1,39 @@
+[
+    {
+      "name": "President",
+      "time": "Vivek Kumar",
+      "detail": "",
+      "image": "./4nm21cs210 _PRESIDENT.jpg"
+    },
+    {
+      "name": "Vice President",
+      "time": "Vivek Kumar",
+      "detail": "",
+      "image": "./4NM21IS213_Vice_President.jpg"
+    },
+    {
+      "name": "Web Master",
+      "time": "Jaideep Yogish",
+      "detail": "",
+      "image": "./4nm21is057_Web_Master.jpg"
+    },
+    {
+      "name": "Co-Web Master",
+      "time": "Ritesh",
+      "detail": "",
+      "image": "./Co-webmaster.jpg"
+    },
+    {
+      "name": "Secretary",
+      "time": "Shreyas Saunshi",
+      "detail": "",
+      "image": "./Shreyas Saunshi.jpg"
+    },
+    {
+      "name": "Vice-Secretary",
+      "time": "Abhijith Hegde",
+      "detail": "",
+      "image": "./ab.jpg"
+    }
+  ]
+  

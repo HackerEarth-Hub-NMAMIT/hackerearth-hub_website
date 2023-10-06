@@ -1,15 +1,15 @@
 [
   {
-    "name": "Event 1",
-    "time": "10:45",
+    "name": "Weakly Contest 1",
+    "time": "21:00",
     "detail": "details of the events will be published soon.",
-    "image": "./event.jpg"
+    "image": "/wc1.jpg"
   },
   {
-    "name": "Event 2",
-    "time": "10:45",
+    "name": "Weakly Contest 2",
+    "time": "21:00",
     "detail": "details of the events will be published soon.",
-    "image": "./event.jpg"
+    "image": "./wc2.jpg"
   },
   {
     "name": "Event 3",

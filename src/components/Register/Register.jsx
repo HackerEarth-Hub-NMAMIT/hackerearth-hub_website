@@ -11,7 +11,7 @@ const Register = () => {
             Be a part of HackerEarth Hub Nmamit and become a better programmer
           </span>
           <button className="register-button">
-            <a href=" ">Register Now</a>
+            <a href="https://forms.gle/BFuqwtKyqnyVSbNY8">Register Now</a>
           </button>
         </div>
       </div>

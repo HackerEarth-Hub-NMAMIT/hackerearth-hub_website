@@ -5,9 +5,11 @@
     max-width: max-content;
     margin: auto;
     transition: all 300ms ease-in;
+    
 }
 .r-card>img{
     width: 100%;
+    height:200px;
     max-width: 15rem;
     border-radius: 10%;
 }

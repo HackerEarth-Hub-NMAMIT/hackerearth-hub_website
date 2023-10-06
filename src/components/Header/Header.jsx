@@ -3,6 +3,7 @@ import "./Header.css";
 import { BiMenuAltRight } from "react-icons/bi";
 import OutsideClickHandler from "react-outside-click-handler";
 import { Link,NavLink } from "react-router-dom";
+import {motion} from "framer-motion";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -18,6 +19,7 @@ const Header = () => {
         <Link to="/">
           <img src="./logo.png" alt="Logo" width={150} />
         </Link>
+        
 
         <OutsideClickHandler
           onOutsideClick={() => {
@@ -29,7 +31,7 @@ const Header = () => {
             <NavLink to="/Events">Events</NavLink>
             <NavLink to="/OurTeam">Our Team</NavLink>
             <button className="button">
-              <a href="">Event Registration</a>
+              <a href="https://www.hackerearth.com/challenges/new/competitive/hackerearth-select/?utm_source=HECA&utm_medium=HECAP14634&utm_campaign=he-select">Event Registration</a>
             </button>
           </div>
         </OutsideClickHandler>
