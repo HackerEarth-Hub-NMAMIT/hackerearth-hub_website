@@ -12,7 +12,7 @@ Development repository
 
 ### Demo Site
 
-- [View Demo Site](https://hacker-earth-test-site.pages.dev/)
+- [View Demo Site](https://hackerearthhub-nmamit.vercel.app/)
 
 
 ## FAQ
@@ -28,5 +28,5 @@ Find :  **`src/utils/slider.json`** | Add or remove the data to create new Event
 
 **Server:** Node.js 
 
-**Demo Host:** CloudFlare Pages
+**Demo Host:** Vercel Pages
 
